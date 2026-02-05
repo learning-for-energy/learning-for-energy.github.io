@@ -2,4 +2,4 @@
 name: Main Workshop
 ---
 
-The workshop will be held at the Charles B. Wang Center at Stony Brook University (room TBD), and the poster session will be co-located with the other workshops at SIGMETRICS. For details on transportation to and from the conference, please see [the main SIGMETRICS site](https://www.sigmetrics.org/sigmetrics2025/transportation.html).
+This workshop is co-located with ACM e-Energy 2026 on June 22, 2026. Detailed room and venue information will be added once the conference organizers release the final venue logistics.

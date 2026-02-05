@@ -1,40 +1,46 @@
 days:
-- name: Friday
-  abbr: Fri
-  date: 2025-06-13
+- name: Monday
+  abbr: Mon
+  date: 2026-06-22
   rooms:
   - name: Main Workshop
     talks:
-      - name: Opening Remarks
-        time_start: '8:55'
-        time_end: '9:00'
-      - name: Mechanism Design with Predictions
+      - name: "Opening Remarks"
         time_start: '9:00'
-        time_end: '9:45'
-      - name: Online Virtual Machine Allocation with Predictions
-        time_start: '9:45'
-        time_end: '10:30'
-      - name: Poster Session & Coffee Break
-        time_start: '10:30'
-        time_end: '11:45'
-      - name: Scheduling with Uncertain Holding Costs and its Application to Content Moderation
-        time_start: '11:45'
+        time_end: '9:15'
+      - name: "NEO-Grid: A Neural Approximation Framework for Optimization and Control in Power Grids"
+        time_start: '9:15'
+        time_end: '9:50'
+      - name: "Homeomorphic Methods for Efficient Learning and Optimization with Hard Constraints: Theory and Applications"
+        time_start: '9:50'
+        time_end: '10:25'
+      - name: "Coffee Break"
+        time_start: '10:25'
+        time_end: '10:45'
+      - name: "End-to-End Learning for Robust Power Grid Operation"
+        time_start: '10:45'
+        time_end: '11:20'
+      - name: "Neural Operator Learning for Energy-efficient and Healthy Building Control"
+        time_start: '11:20'
+        time_end: '11:55'
+      - name: "Leveraging Predictions in Power System Control: An Adaptive Approach"
+        time_start: '11:55'
         time_end: '12:30'
-      - name: Lunch
+      - name: "Lunch"
         time_start: '12:30'
-        time_end: '13:30'
-      - name: Active, Noise-Tolerant, and Strategic Online Classification
-        time_start: '13:30'
-        time_end: '14:15'
-      - name: Algorithms with (Distributional) Predictions 
-        time_start: '14:15'
-        time_end: '15:00'
-      - name: Coffee Break
-        time_start: '15:00'
+        time_end: '13:45'
+      - name: "Talk by Yize Chen (Title TBA)"
+        time_start: '13:45'
+        time_end: '14:20'
+      - name: "Talk by Priya Donti (Title TBA)"
+        time_start: '14:20'
+        time_end: '14:55'
+      - name: "Talk by Omid Ardakanian (Title TBA)"
+        time_start: '14:55'
         time_end: '15:30'
-      - name: Infused Advice in Randomized Algorithms
-        time_start: '15:30'
-        time_end: '16:15'
-      - name: Closing Remarks
-        time_start: '16:15'
-        time_end: '16:20'
+      - name: "Poster Session and Highlight Talks"
+        time_start: '15:45'
+        time_end: '16:45'
+      - name: "Closing Remarks"
+        time_start: '16:45'
+        time_end: '17:00'

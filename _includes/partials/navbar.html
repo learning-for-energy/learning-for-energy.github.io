@@ -1,26 +1,22 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
-  <div class="container d-flex">
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+  <div class="container">
 
-    <!--  -->
-    {%- if site.conference.navigation.logo %}
-      <div class="navbar-brand navbar-logo mr-0 text-left overflow-hidden">
-        <a href="{{ site.conference.navigation.logo.url }}">
-          {%- if site.conference.navigation.logo.img %}
-            <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-left" alt="{{ site.conference.navigation.logo.name }}" style="max-height: 40px;"/>
-          {%- else %}
-            {{ site.conference.navigation.logo.name }}
-          {%- endif %}
-        </a>
-      </div>
-    {%- endif %}
-    <a class="navbar-brand mr-auto collapse navbar-collapse" href="{{ site.baseurl }}/">Learning-augmented Algorithms: Theory & Applications</a>
+    <a class="navbar-brand site-title text-left" href="{{ '/' | relative_url }}">
+      {%- if site.conference.navigation.logo and site.conference.navigation.logo.img %}
+        <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-left" alt="{{ site.conference.navigation.logo.name | default: site.title }}" style="max-height: 40px;"/>
+      {%- elsif site.conference.navigation.logo and site.conference.navigation.logo.name %}
+        {{ site.conference.navigation.logo.name }}
+      {%- else %}
+        {{ site.title }}
+      {%- endif %}
+    </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse mt-2 mt-lg-0" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-lg-auto align-items-lg-center">
         {%- for link in site.conference.navigation.links -%}
 
           {%- if link.menu %}

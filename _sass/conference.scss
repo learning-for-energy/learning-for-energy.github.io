@@ -79,6 +79,24 @@ ul.btn-group {
 
 // General
 
+//   Navbar readability and spacing
+.navbar .site-title {
+  min-width: 0;
+  max-width: calc(100% - 4.5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@include media-breakpoint-up(lg) {
+  .navbar .site-title {
+    max-width: calc(100% - 22rem);
+  }
+  .navbar .navbar-nav {
+    gap: .25rem;
+    white-space: nowrap;
+  }
+}
+
 //   Keep images in container
 main.container img {
   max-width: 100%;

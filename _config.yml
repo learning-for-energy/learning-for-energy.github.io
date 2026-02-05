@@ -1,8 +1,8 @@
-title: "Learning-augmented Algorithms: Theory and Applications (LATA)"
+title: "Physics-Informed Learning for Energy Systems"
 preposition: at
-description: "Workshop on Learning-augmented Algorithms: Theory and Applications -- 2026 -- [SIGMETRICS 2026](https://www.sigmetrics.org/sigmetrics2026/)"
+description: "Workshop at [ACM e-Energy 2026](https://energy.acm.org/conferences/eenergy/2026/)"
 baseurl: ""
-url: "https://learning-augmented-algorithms.github.io/" # the base hostname & protocol for your site
+url: "https://learning-for-energy.github.io/" # the base hostname & protocol for your site
 
 remote_theme: null # "DigitaleGesellschaft/jekyll-theme-conference@v3.6.1"
 
@@ -18,8 +18,7 @@ exclude:
   - LICENSE.md
   - REDISTRIBUTED.md
   - purgecss.config.js
-
-exclude: [vendor]
+  - vendor
 
 # Collections and their defaults
 collections:
@@ -50,14 +49,7 @@ defaults:
     values:
       layout: room
 
-
 conference:
-  map:
-  # Initial map center point
-  home_coord: 28.360176, -81.510195
-  map_provider: "OpenStreetMap.Mapnik"
-  default_zoom: 9
-
   # Language
   lang: en
 
@@ -67,73 +59,25 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name: 'Learning-augmented Algorithms: Theory and Applications (LATA)'
-      img: 'latalogo26.png'
-      relative_url: /
+      name: 'Physics-Informed Learning for Energy Systems'
+      url: '/'
     links:
-      - name: Call for Posters
+      - name: Call for Poster Abstracts
         relative_url: /cfp/
-      # - name: Accepted Posters
-      #   relative_url: /talks/poster/
-      # - name: Program
-      #   relative_url: /program/
-      - name: Register
-        absolute_url: "https://www.sigmetrics.org/sigmetrics2026"
-      # - name: Attending
-      #   absolute_url: "https://www.sigmetrics.org/sigmetrics2026/venue_travel.html"
-      # - name: Talks
-      #   relative_url: /talks/
-      # - name: Speakers
-      #   relative_url: /speakers/
-      - name: Previous Years
-        menu:
-          - name: 2026 (current)
-            disabled: true
-          - name: 2025
-            relative_url: /2025/
-          - name: 2024
-            relative_url: /2024/
-          - name: 2023
-            relative_url: /2023/
-      # - name: "<b>Current Year</b>"
-      #   absolute_url: "https://learning-augmented-algorithms.github.io"
+      - name: Register (TBA)
+        disabled: true
 
   # Link Preview for Sharing
   link_preview:
-    # also adapt "preposition" property at top for more meaningful descriptions
-    disable: false
-    img:
-      twitter: 'splash_2026.png'      # inside /assets/images/
-      open_graph: 'splash_2026.png'  # inside /assets/images/
+    disable: true
 
   # Main landing page
   main:
     logo:
-      img: 'splash_2026.png'
+      img: 'eenergy_workshop_banner.png'
     links:
-      - name: Call for Posters
+      - name: Call for Poster Abstracts
         relative_url: /cfp/
-      # - name: Accepted Posters
-      #   relative_url: /talks/poster/
-      # - name: Program
-      #   relative_url: /program/
-      # - name: Registration
-      #   absolute_url: 'https://www.sigmetrics.org/sigmetrics2026/registration.html'
-
-  # Information boxes
-  # info_bars:
-  #   - title: Call for Posters
-  #     color: primary
-  #     main_only: true
-  #     text: |
-  #       We invite two types of poster submissions. First, we invite submissions presenting new ideas, work in progress, ongoing research directions, and preliminary results. Second, we invite authors of recently published papers on topics related to [Algorithms with Predictions](https://algorithms-with-predictions.github.io) to present their work as a poster. 
-
-  #       ---
-
-  #       Submissions are due by **May 1st, 2023.**  *Please see the [Call for Posters](cfp/) page for more information and important dates!*
-    # - text: Call for Posters alert.
-    #   color: warning
-    #   pages_only: true
 
   # Live indications
   live:
@@ -141,7 +85,7 @@ conference:
     timezone: GMT+1
     stop:       240  # in minutes
     streaming:
-      enable: true
+      enable: false
       pause:     60  # in minutes
       prepend:    5  # in minutes
       extend:     5  # in minutes
@@ -155,11 +99,9 @@ conference:
     main_categories:
       - name: Talk
         color: success
-      # - name: 5 minute poster talks
-      #   color: info
-      - name: Transitions
+      - name: Transition
         color: info
-      - name: Poster Break
+      - name: Poster Session
         color: primary
       - name: Remarks
         color: warning
@@ -179,7 +121,7 @@ conference:
     # Main page title shown on location/room navigation bar
     navbar_title: 'Location'
     # Show map on location main page
-    map: true
+    map: false
 
   program:
     # URL of program page

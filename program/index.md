@@ -3,10 +3,19 @@ layout: program
 title: Program
 ---
 
-<!-- The main categories (or tracks) of the different talks as well as their coloring can be adapted in the `_config.yml` file under `conference.talks.main_categories`. See also the [Talk Settings](https://github.com/DigitaleGesellschaft/jekyll-theme-conference/#talk-settings-main-categories) section of the theme's README file. -->
+Workshop Date: **Monday, June 22, 2026**
 
-Workshop Date: **Friday, June 13th, 2025**
+Venue: Co-located with **ACM e-Energy 2026** (room and venue details to be announced with the main conference schedule).
 
-Location: Lecture Hall 1, Charles B. Wang Center, Stony Brook University -- [ACM SIGMETRICS 2025](https://www.sigmetrics.org/sigmetrics2025/index.html) -- **Stony Brook, New York**
+The timetable below is tentative and will be updated as final talk times are confirmed.
 
-The workshop will be held from 9:00 AM to 4:15 PM (EST) at SIGMETRICS 2025.
+#### Confirmed Invited Speakers
+
+- Hao Zhu (The University of Texas at Austin)
+- Enming Liang (City University of Hong Kong)
+- Nicolas Christianson (Johns Hopkins University)
+- Yuanyuan Shi (University of California San Diego)
+- Wenqi Cui (New York University)
+- Yize Chen (University of Alberta)
+- Priya Donti (Massachusetts Institute of Technology)
+- Omid Ardakanian (University of Alberta)
