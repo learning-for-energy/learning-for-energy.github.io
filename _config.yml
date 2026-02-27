@@ -64,10 +64,11 @@ conference:
     links:
       - name: Call for Poster Abstracts
         relative_url: /cfp/
-      - name: Register
-        url: 'https://energy.acm.org/conferences/eenergy/2026/pages/registration.php'
       - name: Speakers
         relative_url: /speakers/
+      - name: Register
+        absolute_url: 'https://energy.acm.org/conferences/eenergy/2026/pages/registration.php'
+      
 
   # Link Preview for Sharing
   link_preview:

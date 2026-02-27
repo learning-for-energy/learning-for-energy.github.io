@@ -1,5 +1,5 @@
 ---
-layout: speaker-overview
+layout: default
 title: Speakers
 ---
 
