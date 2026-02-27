@@ -1,8 +1,8 @@
 title: "Physics-Informed Learning for Energy Systems"
 preposition: at
 description: "Workshop at [ACM e-Energy 2026](https://energy.acm.org/conferences/eenergy/2026/)"
-baseurl: "/learning-for-energy.github.io"
-url: "https://nhchristianson.github.io" # the base hostname & protocol for your site
+baseurl: "/"
+url: "https://learning-for-energy.github.io" # the base hostname & protocol for your site
 
 remote_theme: null # "DigitaleGesellschaft/jekyll-theme-conference@v3.6.1"
 
