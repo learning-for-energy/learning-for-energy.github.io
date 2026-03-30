@@ -15,7 +15,7 @@ Accepted abstracts will be posted on the workshop webpage, and their associated 
 
 #### Important Dates
 
-- Submission deadline: **March 31, 2026, anywhere on earth (AoE)**
+- Submission deadline: **~~March 31~~ extended to April 25, 2026, anywhere on earth (AoE)**
 - Notification of acceptance: **April 30, 2026**
 - Workshop date: **June 22, 2026**
 - Submission site: [https://eenergy26-piles.hotcrp.com/](https://eenergy26-piles.hotcrp.com/)
