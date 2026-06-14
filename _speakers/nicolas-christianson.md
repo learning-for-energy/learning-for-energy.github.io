@@ -2,6 +2,7 @@
 name: Nicolas Christianson
 first_name: Nicolas
 last_name: Christianson
+published: false
 ---
 
 #### Speaker Bio

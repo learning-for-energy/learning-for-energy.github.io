@@ -4,6 +4,7 @@ speakers:
   - Poster Authors
 categories:
   - Poster Session
+published: false
 ---
 
 The poster session highlights contributed abstracts aligned with the workshop theme.

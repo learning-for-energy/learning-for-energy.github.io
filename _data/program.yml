@@ -5,41 +5,26 @@ days:
   rooms:
   - name: Main Workshop
     talks:
-      - name: "Opening Remarks"
-        time_start: '9:00'
-        time_end: '9:15'
-      - name: "NEO-Grid: A Neural Approximation Framework for Optimization and Control in Power Grids"
-        time_start: '9:15'
-        time_end: '9:50'
-      - name: "Homeomorphic Methods for Efficient Learning and Optimization with Hard Constraints: Theory and Applications"
-        time_start: '9:50'
-        time_end: '10:25'
-      - name: "Coffee Break"
-        time_start: '10:25'
-        time_end: '10:45'
-      - name: "End-to-End Learning for Robust Power Grid Operation"
-        time_start: '10:45'
-        time_end: '11:20'
-      - name: "Neural Operator Learning for Energy-efficient and Healthy Building Control"
-        time_start: '11:20'
-        time_end: '11:55'
-      - name: "Leveraging Predictions in Power System Control: An Adaptive Approach"
-        time_start: '11:55'
-        time_end: '12:30'
-      - name: "Lunch"
-        time_start: '12:30'
-        time_end: '13:45'
-      - name: "Talk by Yize Chen (Title TBA)"
-        time_start: '13:45'
-        time_end: '14:20'
-      - name: "Talk by Priya Donti (Title TBA)"
-        time_start: '14:20'
-        time_end: '14:55'
-      - name: "Talk by Omid Ardakanian (Title TBA)"
-        time_start: '14:55'
-        time_end: '15:30'
-      - name: "Poster Session and Highlight Talks"
-        time_start: '15:45'
+      - name: "Introduction and Opening Remarks"
+        time_start: '13:00'
+        time_end: '13:15'
+      - name: "The Dual Frontier between AI and the Power Grid"
+        time_start: '13:15'
+        time_end: '13:50'
+      - name: "Title TBA"
+        time_start: '13:50'
+        time_end: '14:25'
+      - name: "Coffee Break (KC 300 Galleria Central)"
+        time_start: '14:25'
+        time_end: '15:00'
+      - name: "Physics-Informed, Topology-Aware Learning for Safe and Reliable Operation of Sustainable Energy Systems"
+        time_start: '15:00'
+        time_end: '15:35'
+      - name: "Homeomorphism Methods for Efficient Learning and Optimization with Hard Constraints"
+        time_start: '15:35'
+        time_end: '16:10'
+      - name: "Data-Driven Optimal Voltage Control for Power Distribution Systems"
+        time_start: '16:10'
         time_end: '16:45'
       - name: "Closing Remarks"
         time_start: '16:45'

@@ -2,6 +2,7 @@
 name: Yuanyuan Shi
 first_name: Yuanyuan
 last_name: Shi
+published: false
 ---
 
 #### Speaker Bio

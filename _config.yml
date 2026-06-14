@@ -62,8 +62,8 @@ conference:
       name: 'Physics-Informed Learning for Energy Systems'
       url: '/'
     links:
-      - name: Call for Poster Abstracts
-        relative_url: /cfp/
+      - name: Schedule
+        relative_url: /program/
       - name: Speakers
         relative_url: /speakers/
       - name: Register
@@ -79,8 +79,8 @@ conference:
     logo:
       img: 'eenergy_workshop_banner.png'
     links:
-      - name: Call for Poster Abstracts
-        relative_url: /cfp/
+      - name: Schedule
+        relative_url: /program/
 
   # Live indications
   live:
@@ -102,10 +102,8 @@ conference:
     main_categories:
       - name: Talk
         color: success
-      - name: Transition
+      - name: Break
         color: info
-      - name: Poster Session
-        color: primary
       - name: Remarks
         color: warning
 
@@ -131,7 +129,7 @@ conference:
     url: '/program'
 
     # Time steps in program table
-    time_steps: 15 # in minutes
+    time_steps: 5 # in minutes
 
     # Show intermediary time steps (next to full hours)
-    show_alltimes: true
+    show_alltimes: false

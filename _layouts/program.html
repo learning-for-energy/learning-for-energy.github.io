@@ -90,10 +90,25 @@
             {%- else -%}
               {%- assign current_time = current_hour | append: ':' | append: current_min -%}
             {%- endif -%}
+            {%- assign current_starts_talk = false -%}
+            {%- for r in d.rooms -%}
+              {%- for t in r.talks -%}
+                {%- include partials/get_talk_time.html -%}
+                {%- assign d_start_hour = current_day | minus: talk_start_day | times: 24 | plus: current_hour | minus: talk_start_hour -%}
+                {%- assign d_start_min = current_min | minus: talk_start_min -%}
+                {%- if d_start_hour == 0 and d_start_min == 0 -%}
+                  {%- assign current_starts_talk = true -%}
+                  {%- break -%}
+                {%- endif -%}
+              {%- endfor -%}
+              {%- if current_starts_talk -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
 
             <tr>
 
-              {%- if current_min == 0 -%}
+              {%- if current_starts_talk -%}
                 <th scope="row" class="col-title text-right" style="z-index: {{ z-index-max }}">
                   {{- current_time -}}
                 </th>

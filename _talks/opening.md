@@ -1,5 +1,5 @@
 ---
-name: Opening Remarks
+name: Introduction and Opening Remarks
 speakers:
   - Organizers
 categories:
@@ -7,4 +7,4 @@ categories:
 hide: true
 ---
 
-Welcome and workshop overview.
+Workshop introduction and opening remarks.

@@ -1,10 +1,10 @@
 ---
-name: Coffee Break
+name: Coffee Break (KC 300 Galleria Central)
 speakers:
   - Organizers
 categories:
-  - Transition
+  - Break
 hide: true
 ---
 
-Networking break.
+Coffee break.

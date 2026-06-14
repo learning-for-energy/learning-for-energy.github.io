@@ -2,6 +2,7 @@
 name: Yize Chen
 first_name: Yize
 last_name: Chen
+published: false
 ---
 
 #### Speaker Bio

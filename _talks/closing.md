@@ -5,6 +5,7 @@ speakers:
 categories:
   - Remarks
 hide: true
+published: true
 ---
 
 Wrap-up and closing notes.

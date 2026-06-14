@@ -3,4 +3,4 @@ layout: talk-overview
 title: Talks
 ---
 
-This page lists invited talks, transitions, and poster-session activities for the inaugural workshop edition.
+Talk details will be added as they are confirmed.
