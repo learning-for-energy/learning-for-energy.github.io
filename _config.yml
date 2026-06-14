@@ -64,8 +64,6 @@ conference:
     links:
       - name: Schedule
         relative_url: /program/
-      - name: Speakers
-        relative_url: /speakers/
       - name: Register
         absolute_url: 'https://energy.acm.org/conferences/eenergy/2026/pages/registration.php'
       
